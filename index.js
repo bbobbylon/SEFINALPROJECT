@@ -103,7 +103,7 @@ app.use((err, req, res, next)=>
 
 // this is for browsing on a local host (my own computer) 
 const port = process.env.PORT || 8080;
-//const server = http.createServer(app);
+const server = http.createServer(app);
 server.listen(port, () =>{
   console.log("Server running at http://localhost:%d", port);
 })
