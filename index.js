@@ -6,15 +6,15 @@
 //var http = require('http');
 //var url = require('url');
 //var dt = require('./datetime');
+const express = require("express"); 
 const expressHandlebars = require('express-handlebars')
 //the below statement grabs the express module to be used 
-var express = require("express"); 
 const app = express(); 
 app.use(express.static(__dirname + '/public'))
 var router = express.Router();
 
 
-var path = require("path"); 
+//var path = require("path"); 
 
 
 
