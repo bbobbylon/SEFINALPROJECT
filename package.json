@@ -1,7 +1,7 @@
 {
     "name": "index.js",
     "description": "Simple Hello World Node.js sample for Azure App Service",
-    "main": "index.js"
+    "main": "index.js",
     "version": "1.0.0",
     "private": true,
     "license": "MIT",
