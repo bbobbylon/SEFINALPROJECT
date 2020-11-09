@@ -34,14 +34,14 @@ app.set('view engine', 'handlebars')
 app.get('/', (req, res) => res.render('home'))
 
 
-//this is to load the landing page (index.html)
+/*this is to load the landing page (index.html)
 router.get('/',function(req,res){ 
   
   res.sendFile(path.join(__dirname+'/index.html')); 
   //__dirname : It will resolve to your project folder. 
 }); 
 
-
+*/
 
 
 
